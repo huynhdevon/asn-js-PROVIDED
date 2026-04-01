@@ -3,7 +3,9 @@
 // Do any of these variables need to be initialized when the page is loaded? 
 // When do they need to be reset or updated?
 
-
+let cost_per_day = 0;
+let number_of_days = 0;
+let elements_on_screen = 0;
 
 
 /********* colour change days of week *********/
