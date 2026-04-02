@@ -104,7 +104,9 @@ header img {
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
 
-
+.index img {
+    width: 300px;
+}
 
 
 
