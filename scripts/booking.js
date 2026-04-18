@@ -15,8 +15,8 @@ const totalDisplay = document.querySelector(".total");
 // when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
 // added challenge: don't update the dayCounter if the same day is clicked more than once. hint: .classList.contains() might be helpful here!
 
-daySelector.forEach(function(button) {
-    button.addEventListener("click", function() {
+daySelector.forEach(button => {
+    button.addEventListener("click", () => {
         if (!button.classList.contains("clicked")) {
             button.classList.add("clicked");
             number_of_days++;

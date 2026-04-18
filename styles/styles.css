@@ -61,7 +61,7 @@ h2 {
     font-size: 24px;
 }
 
-.fake-button, .blue-hover {
+.fake-button {
     background-color: #E5AF42;
     line-height: 3;
     border: 1px solid black;
@@ -186,10 +186,7 @@ main {
     width: 600px;
     margin: 0 auto;
     text-align: center;
-}
-
-.bookings p {
-    font-size: 18px;
+    font-size: 18px;    
 }
 
 .bookings ul {
@@ -197,26 +194,28 @@ main {
     justify-content: center;
     padding: 0;
     list-style: none;
+    gap: 20px;
 }
 
 .bookings li {
     width: 60px;
-    margin-bottom: 20px;
     border: 1px solid black;
-    margin: 0 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    cursor: pointer;
 }
 
 .bookings .day-selector {
     margin-bottom: 12px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
 }
 
 .bookings .small-button {
     padding: 5px;
     border: 1px solid black;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .bookings .top-margin {
@@ -232,6 +231,7 @@ main {
 
 .bookings .clicked {
     background-color: #E5AF42;
+    color: black;
 }
 
 /************* contact page *************/
@@ -270,6 +270,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .contact .form-group {
